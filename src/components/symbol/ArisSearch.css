@@ -1,0 +1,40 @@
+.search-container{
+    margin: 16px 10%;
+    position: relative;
+}
+
+.search-cat{
+   padding: 16px;
+}
+
+.cat-link{
+    margin: 8px;
+    padding: 0 16px;
+}
+
+.search-container .search-input{
+    padding: 64px 8px 16px;
+}
+
+.search-container .search-result{
+    margin: 16px 10%;
+}
+
+
+.search-container .search-result-row .result-title{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.search-container .row-item{
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.search-container .link-splitter{
+    color: #999999;
+}
+.search-container .model-type{
+    color: #999999;
+}

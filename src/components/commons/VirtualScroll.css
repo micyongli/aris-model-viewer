@@ -1,0 +1,22 @@
+.vir-container {
+    overflow: hidden;
+    width: 15%;
+    position: relative;
+}
+
+.vir-container:hover {
+    overflow-y: scroll;
+}
+.vir-container .inner-container{
+    padding-right: 14px;
+}
+.vir-container:hover .inner-container{
+    padding-right: 0;
+}
+
+.vir-container .vir-item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

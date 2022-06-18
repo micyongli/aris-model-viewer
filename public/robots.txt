@@ -1,0 +1,3 @@
+# https://www.eyongli.cn/robotstxt.html
+User-agent: *
+Disallow:

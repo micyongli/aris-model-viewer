@@ -1,0 +1,93 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.App .svg-top-container {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  flex: 10;
+  margin: 1px;
+  position: relative;
+}
+
+
+.App .Resizer {
+  background: #aaa;
+  opacity: 0.5;
+  z-index: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+
+
+.Resizer.vertical {
+  width: 14px;
+  margin: 1px -5px;
+  border-left: 5px solid rgba(255, 255, 255, 0);
+  border-right: 5px solid rgba(255, 255, 255, 0);
+  cursor: col-resize;
+}
+
+.App .layout-left{
+  height: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.App .svg-zoom-tool{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 4px;
+  width: 128px;
+}
+
+.App .attrs-pane{
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.App .tool-bar{
+  margin-top: 32px;
+  margin-left: 8px;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  height: 32px;
+  position: relative;
+}
+
+.App .tool-bar .btn-group{
+  position: absolute;
+  right: 8px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+}
+.btn-group .btn{
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.resizer{
+
+}
+
+
+@keyframes switch-color{
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+

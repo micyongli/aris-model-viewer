@@ -1,0 +1,6 @@
+.svg-container {
+    display: flex;
+    border: 1px dashed #aaa;
+    flex: 10;
+    margin: 1px;
+}
